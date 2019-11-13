@@ -1,0 +1,8 @@
+C:\Users\Menenn\source\repos\ProjLabirinto\ProjLabirinto\bin\Debug\netstandard2.0\ProjLabirinto.deps.json
+C:\Users\Menenn\source\repos\ProjLabirinto\ProjLabirinto\bin\Debug\netstandard2.0\ProjLabirinto.dll
+C:\Users\Menenn\source\repos\ProjLabirinto\ProjLabirinto\bin\Debug\netstandard2.0\ProjLabirinto.pdb
+C:\Users\Menenn\source\repos\ProjLabirinto\ProjLabirinto\obj\Debug\netstandard2.0\ProjLabirinto.csprojAssemblyReference.cache
+C:\Users\Menenn\source\repos\ProjLabirinto\ProjLabirinto\obj\Debug\netstandard2.0\ProjLabirinto.AssemblyInfoInputs.cache
+C:\Users\Menenn\source\repos\ProjLabirinto\ProjLabirinto\obj\Debug\netstandard2.0\ProjLabirinto.AssemblyInfo.cs
+C:\Users\Menenn\source\repos\ProjLabirinto\ProjLabirinto\obj\Debug\netstandard2.0\ProjLabirinto.dll
+C:\Users\Menenn\source\repos\ProjLabirinto\ProjLabirinto\obj\Debug\netstandard2.0\ProjLabirinto.pdb
