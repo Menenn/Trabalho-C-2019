@@ -8,7 +8,7 @@ namespace Labirinto
 {
     class Program
     {
-        private static string[,] inicio = new string[8, 20] //vetor com a forma do título do jogo
+        private static string[,] inicio = new string[8, 20] //matriz com a forma do título do jogo
         {
             {"               ", "   ", "   ", "   ", "   ", "   ", "     ", "   ", "   ", "   ", "     ", "   ", "   ", "   ", "   ", "     ", "   ", "   ", "   ", "   "},
             {"               ", " # ", " # ", " # ", " # ", " # ", "     ", " # ", " # ", " # ", "     ", " # ", " # ", " # ", " # ", "     ", " # ", " # ", " # ", "   "},
@@ -20,7 +20,7 @@ namespace Labirinto
             {"               ", "   ", "   ", "   ", "   ", "   ", "     ", "   ", "   ", "   ", "     ", "   ", "   ", "   ", "   ", "     ", "   ", "   ", "   ", "   "},
         };
 
-        private static string[,] labirinto = new string[8, 11] //vetor com a forma do labirinto nível 1
+        private static string[,] labirinto = new string[8, 11] //matriz com a forma do labirinto nível 1
         {
             {"                        ", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|"},
             {"                        ", "|+|", "|+|", "|+|", " - ", " - ", " - ", "|+|", " - ", " - ", " - "},
@@ -32,7 +32,7 @@ namespace Labirinto
             {"                        ", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|"},
         };
 
-        private static string[,] labirinto2 = new string[10, 13] //vetor com a forma do labirinto nível 2
+        private static string[,] labirinto2 = new string[10, 13] //matriz com a forma do labirinto nível 2
         {
             {"                        ", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|"},
             {"                        ", "|+|", " - ", " - ", " - ", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", " - ", "|+|"},
@@ -46,7 +46,7 @@ namespace Labirinto
             {"                        ", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|"},
         };
 
-        private static string[,] labirinto3 = new string[15, 15] //vetor com a forma do labirinto nível 3
+        private static string[,] labirinto3 = new string[15, 15] //matriz com a forma do labirinto nível 3
         {
             {"                        ", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|"},
             {"                        ", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", "|+|", " # ", "|+|", "|+|", " # ", " - ", "|+|"},
@@ -349,7 +349,6 @@ namespace Labirinto
                 {
                     if (labirinto3[posLinha3, posColuna3 + 1] != "|+|")
                     {
-                        labirinto3[13, 5] = ">:(";
                         labirinto3[posLinha3, posColuna3] = " - ";
                         posColuna3++;
                     }
